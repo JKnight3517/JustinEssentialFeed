@@ -11,6 +11,7 @@
 		671756D828A831FB004D1452 /* JustinEssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671756CD28A831FB004D1452 /* JustinEssentialFeed.framework */; };
 		671756DD28A831FB004D1452 /* JustinEssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671756DC28A831FB004D1452 /* JustinEssentialFeedTests.swift */; };
 		671756DE28A831FB004D1452 /* JustinEssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 671756D028A831FB004D1452 /* JustinEssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		671756E828A83243004D1452 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671756E728A83243004D1452 /* FeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		671756D128A831FB004D1452 /* JustinEssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = JustinEssentialFeed.docc; sourceTree = "<group>"; };
 		671756D728A831FB004D1452 /* JustinEssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustinEssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		671756DC28A831FB004D1452 /* JustinEssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustinEssentialFeedTests.swift; sourceTree = "<group>"; };
+		671756E728A83243004D1452 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				671756D028A831FB004D1452 /* JustinEssentialFeed.h */,
 				671756D128A831FB004D1452 /* JustinEssentialFeed.docc */,
+				671756E728A83243004D1452 /* FeedItem.swift */,
 			);
 			path = JustinEssentialFeed;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				671756E828A83243004D1452 /* FeedItem.swift in Sources */,
 				671756D228A831FB004D1452 /* JustinEssentialFeed.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +401,7 @@
 		671756E528A831FB004D1452 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 36LQ6HAJ6Y;
@@ -412,6 +417,7 @@
 		671756E628A831FB004D1452 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 36LQ6HAJ6Y;
