@@ -75,10 +75,9 @@
 		671756CF28A831FB004D1452 /* JustinEssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
+				671756EB28A83476004D1452 /* Feed Feature */,
 				671756D028A831FB004D1452 /* JustinEssentialFeed.h */,
 				671756D128A831FB004D1452 /* JustinEssentialFeed.docc */,
-				671756E728A83243004D1452 /* FeedItem.swift */,
-				671756E928A833E1004D1452 /* FeedLoader.swift */,
 			);
 			path = JustinEssentialFeed;
 			sourceTree = "<group>";
@@ -89,6 +88,15 @@
 				671756DC28A831FB004D1452 /* JustinEssentialFeedTests.swift */,
 			);
 			path = JustinEssentialFeedTests;
+			sourceTree = "<group>";
+		};
+		671756EB28A83476004D1452 /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
+				671756E728A83243004D1452 /* FeedItem.swift */,
+				671756E928A833E1004D1452 /* FeedLoader.swift */,
+			);
+			path = "Feed Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
